@@ -18,11 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Lint markdown files
-        run: |
-          npx --yes markdownlint-cli2 \
-            'docs/**/*.md' \
-            '*.md' \
-            --config '{"default": true, "MD013": false, "MD033": false, "MD041": false}'
+        run: npx --yes markdownlint-cli2 'docs/**/*.md' '*.md'
 
       - name: Check links in markdown
         run: |
