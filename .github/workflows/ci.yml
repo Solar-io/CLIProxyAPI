@@ -25,4 +25,4 @@ jobs:
           find docs -name '*.md' -print0 | \
           xargs -0 npx --yes markdown-link-check \
             --quiet \
-            --config '{"ignorePatterns": [{"pattern": "^https://raw.githubusercontent.com"}]}'
+            --config .markdown-link-check.json

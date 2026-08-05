@@ -1,0 +1,9 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://raw.githubusercontent.com" }
+  ],
+  "timeout": "10s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "5s"
+}
