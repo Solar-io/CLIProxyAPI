@@ -22,7 +22,7 @@ jobs:
 
       - name: Check links in markdown
         run: |
-          npx --yes markdown-link-check \
+          find docs -name '*.md' -print0 | \
+          xargs -0 npx --yes markdown-link-check \
             --quiet \
-            --config '{"ignorePatterns": [{"pattern": "^https://raw.githubusercontent.com"}]}' \
-            docs/**/*.md
+            --config '{"ignorePatterns": [{"pattern": "^https://raw.githubusercontent.com"}]}'
