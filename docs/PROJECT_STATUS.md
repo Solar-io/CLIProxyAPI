@@ -1,4 +1,4 @@
-# Project Status 
+# Project Status
 
 Last updated: 2025-01-08 (project review & summary)
 
@@ -8,8 +8,7 @@ Snapshot
 - Docs: IMPLEMENTATION_PLAN, CLIProxyAPI_SUMMARY, CLIProxyAPI_FINAL_SUMMARY, CLIProxyAPI_INSTALLATION_GUIDE kept current
 - Recoverability: git version control with all code committed
 
-In Progress
------------
+## In Progress
 - Switching to installer-based deployment approach
 - Rolling out Claude Code hook enforcement for docs/tests/git/notifications
 - Baseline repository review (2025-01-08) to capture current implementation + guardrail status for stakeholders

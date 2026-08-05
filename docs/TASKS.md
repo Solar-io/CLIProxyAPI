@@ -1,10 +1,8 @@
 # Tasks
 
-
 Blocked
 
 - [ ] Item — reason, owner, next unblock attempt/date
-
 
 ## M1 — Foundation
 - [x] Baseline repo + installer artifacts imported
